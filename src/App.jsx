@@ -1,7 +1,6 @@
 import './App.css'
 import PrismDateTime from './components/PrismDateTime'
 import VideoGrid from './components/VideoGrid'
-import PrismInspection from './Page/PrismInspection'
 
 function App() {
 
