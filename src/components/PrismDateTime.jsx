@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import sedan from "../assets/sedan.png";
+import locationIcon from "../assets/location.png";
+import cameraIcon from "../assets/camera.png";
 
 export default function PrismDateTime() {
   const [now, setNow] = useState(new Date());
@@ -39,7 +42,7 @@ export default function PrismDateTime() {
       <div className="flex flex-row items-center justify-between gap-4 w-full">
         <div className="flex items-center gap-4">
           <h2 className="font-mono text-sm">1C6SRFFT7TN349979</h2>
-          <img src="../assets/sedan.png" alt="QR Code" className="w-14 h-14" />
+          <img src={sedan} alt="QR Code" className="w-14 h-14" />
         </div>
 
         <div className="flex items-center gap-4">
@@ -48,15 +51,15 @@ export default function PrismDateTime() {
             {dateStr} {time}
           </span>
           <div className="flex items-center gap-2">
-            <img src="../assets/assets/location.png" alt="Location Icon" className="w-6 h-6" />
+            <img src={locationIcon} alt="Location Icon" className="w-6 h-6" />
             <h2 className="font-mono text-sm">NEW BOSTON</h2>
           </div>
           <div className="flex items-center gap-2">
-            <img src="../assets/camera.png" alt="Location Icon" className="w-5 h-5" />
+            <img src={cameraIcon} alt="Camera Icon" className="w-5 h-5" />
             <h2 className="font-mono text-sm">POD 2</h2>
           </div>
           <div>
-            <img src="../assets/sedan.png" alt="Warning Icon" className="w-14 h-14" />
+            <img src={sedan} alt="Warning Icon" className="w-14 h-14" />
           </div>
         </div>
 
