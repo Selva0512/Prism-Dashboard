@@ -39,7 +39,7 @@ export default function PrismDateTime() {
       <div className="flex flex-row items-center justify-between gap-4 w-full">
         <div className="flex items-center gap-4">
           <h2 className="font-mono text-sm">1C6SRFFT7TN349979</h2>
-          <img src=".\src\assets\sedan.png" alt="QR Code" className="w-14 h-14" />
+          <img src="public\sedan.png" alt="QR Code" className="w-14 h-14" />
         </div>
 
         <div className="flex items-center gap-4">
