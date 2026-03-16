@@ -15,7 +15,7 @@ export default function VideoGrid() {
         <div className="flex w-full items-center gap-2">
           <video className="w-1/2 max-h-60 object-cover rounded-lg" controls>
             <source
-              src="src/assets/4281386-hd_1920_1080_24fps.mp4"
+              src="./src/assets/4281386-hd_1920_1080_24fps.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
